@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		396BD7C02AFA5EFB00151453 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396BD7BF2AFA5EFB00151453 /* Model.swift */; };
+		396BD7C62AFA60E900151453 /* BloodPressurePredictor.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 396BD7C52AFA60E900151453 /* BloodPressurePredictor.mlmodel */; };
+		396BD7C82AFA63A300151453 /* DiastoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396BD7C72AFA63A300151453 /* DiastoleView.swift */; };
 		39D498562AFA3AB700D2D7BC /* uppgift_6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D498552AFA3AB700D2D7BC /* uppgift_6App.swift */; };
 		39D498582AFA3AB700D2D7BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D498572AFA3AB700D2D7BC /* ContentView.swift */; };
 		39D4985A2AFA3AB900D2D7BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D498592AFA3AB900D2D7BC /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		396BD7BF2AFA5EFB00151453 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		396BD7C52AFA60E900151453 /* BloodPressurePredictor.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = BloodPressurePredictor.mlmodel; path = Models/BloodPressurePredictor.mlmodel; sourceTree = SOURCE_ROOT; };
+		396BD7C72AFA63A300151453 /* DiastoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiastoleView.swift; sourceTree = "<group>"; };
 		39D498522AFA3AB700D2D7BC /* uppgift-6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "uppgift-6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39D498552AFA3AB700D2D7BC /* uppgift_6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uppgift_6App.swift; sourceTree = "<group>"; };
 		39D498572AFA3AB700D2D7BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +102,9 @@
 			children = (
 				39D498552AFA3AB700D2D7BC /* uppgift_6App.swift */,
 				39D498572AFA3AB700D2D7BC /* ContentView.swift */,
+				396BD7BF2AFA5EFB00151453 /* Model.swift */,
+				396BD7C72AFA63A300151453 /* DiastoleView.swift */,
+				396BD7C52AFA60E900151453 /* BloodPressurePredictor.mlmodel */,
 				39D498592AFA3AB900D2D7BC /* Assets.xcassets */,
 				39D4985B2AFA3AB900D2D7BC /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				396BD7C02AFA5EFB00151453 /* Model.swift in Sources */,
+				396BD7C82AFA63A300151453 /* DiastoleView.swift in Sources */,
 				39D498582AFA3AB700D2D7BC /* ContentView.swift in Sources */,
 				39D498562AFA3AB700D2D7BC /* uppgift_6App.swift in Sources */,
+				396BD7C62AFA60E900151453 /* BloodPressurePredictor.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
